@@ -3,6 +3,7 @@ const PathToRoute = {
     About: '/about',
     Contact: '/contact',
     
+    
   }
   
   export default PathToRoute;
