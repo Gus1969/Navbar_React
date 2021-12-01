@@ -2,13 +2,12 @@ import React from 'react';
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
 import '../common/NavbarPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import {BrowserRouter as Router, Link} from "react-router-dom";
+import '../common/NavbarPage.css';
+import {Link} from "react-router-dom";
 
 
 const NavbarPage = () => {
     return ( 
-      <Router>
         
                 <Navbar collapseOnSelect expand="lg" className="Navbar">
   <Container className="contenedor">
@@ -37,7 +36,7 @@ const NavbarPage = () => {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-</Router>
+
 
     )
 };

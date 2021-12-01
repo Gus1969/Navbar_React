@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/Contact.css';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
  const Contact = () => {
@@ -9,4 +9,4 @@ import '../pages/Contact.css';
        
      )
  };
-  export default Contact
+  export default Contact;
