@@ -1,4 +1,4 @@
-import React, {Components} from 'react';
+import React from 'react';
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
 import '../common/NavbarPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +19,7 @@ const NavbarPage = () => {
     <Nav className="me-auto">
       <Nav.Link as={Link} to={'/Index'}>Home</Nav.Link>
       <Nav.Link as={Link} to={'/About'}> About Us</Nav.Link>
-      <Nav.Link as={Link} to={'/contact'}> Contact</Nav.Link>
+      <Nav.Link as={Link} to={'/Contact'}> Contact</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to ={'/action'}>Action</NavDropdown.Item>
         <NavDropdown.Item as={Link} to ={'/actionDos'}>Action Dos </NavDropdown.Item>
