@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarPage from "../common/NavbarPage";
+import MainBody from '../common/MainBody';
 
 
  const Home = () => {
@@ -8,6 +9,7 @@ import NavbarPage from "../common/NavbarPage";
          <>
         <NavbarPage />
         <h2> Home page</h2>
+        <MainBody />
         </>
        
      )
