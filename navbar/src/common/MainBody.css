@@ -1,7 +1,10 @@
 .CardHolder {
     background: orange;
+    margin: 0 20px;
+    margin-bottom: 100px;
 }
-/* .Picture {
-    width: 533px;
-    height: 195px;
-} */
+
+.title {
+    color: #fff;
+    font-weight: 700;
+}
