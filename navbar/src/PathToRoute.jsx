@@ -1,5 +1,6 @@
 const PathToRoute = {
-    Index: '/index',
+    
+    Home: '/',
     About: '/about',
     Contact: '/contact',
   }

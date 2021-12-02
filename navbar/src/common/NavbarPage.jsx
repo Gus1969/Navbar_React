@@ -2,7 +2,6 @@ import React from 'react';
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
 import '../common/NavbarPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../common/NavbarPage.css';
 import {Link} from "react-router-dom";
 
 
@@ -11,12 +10,12 @@ const NavbarPage = () => {
         
                 <Navbar collapseOnSelect expand="lg" className="Navbar">
   <Container className="contenedor">
-  <Navbar.Brand as={Link} to={'./Index'}>React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand>Company Logo</Navbar.Brand>
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link as={Link} to={'/Index'}>Home</Nav.Link>
+      <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
       <Nav.Link as={Link} to={'/About'}> About Us</Nav.Link>
       <Nav.Link as={Link} to={'/Contact'}> Contact</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
