@@ -11,7 +11,7 @@ const MainBody = () => {
         <Container>
         <CardGroup>
   <Card className="CardHolder">
-    <Card.Img className="Picture" variant="top" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"/>
+    <Card.Img className="Picture" variant="top" src=""/>
     <Card.Body>
       <Card.Title className="title">Card title</Card.Title>
       <Card.Text>
@@ -24,7 +24,7 @@ const MainBody = () => {
     </Card.Footer>
   </Card>
   <Card className="CardHolder">
-    <Card.Img className="Picture" variant="top" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" />
+    <Card.Img className="Picture" variant="top" src=""/>
     <Card.Body>
       <Card.Title className="title">Card title</Card.Title>
       <Card.Text>
@@ -37,7 +37,7 @@ const MainBody = () => {
     </Card.Footer>
   </Card>
   <Card className="CardHolder">
-    <Card.Img className="Picture" variant="top" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" />
+    <Card.Img className="Picture" variant="top" src="" />
     <Card.Body>
       <Card.Title className="title">Card title</Card.Title>
       <Card.Text>
